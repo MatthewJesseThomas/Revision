@@ -1,9 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: blue;
+}
+
+/* Display: Inline-Flex */
+header, .menu-list {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+/* menu-list */
+.menu-list {
+    list-style: none;
+}
+.menu-list li {
+    margin: 0 10px;
+    padding: 0;
+}
+.menu-list {
+    margin-left: auto;
+    align-self: center;
+}
+.menu-list li a {
+    color:black;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .menu-list li a:hover {
+    color: black;
+    background-color:plum;
+  }
 table {
     border: 3px solid black;
+    border-collapse: collapse;
 }
 body {
-    background-image: url('https://i.postimg.cc/R0dQxrgD/Urban-Distopia.png');
+    background-image: url('https://i.postimg.cc/XNB7DcZd/13305786-set-of-tools-abstract-vector-illustration.webp.png');
     background-size: cover;
 }
-
-
+header img {
+    width: 9em;
+}
+th, td {
+    border: 2px solid red;
+    text-align: center;
+}
+/* footer */
+footer p {
+    font-weight: bolder;
+}
+h2 {
+    color: plum;
+}
