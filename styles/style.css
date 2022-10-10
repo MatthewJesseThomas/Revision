@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: blue;
+    color: black;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 /* Display: Inline-Flex */
@@ -38,7 +39,7 @@ table {
     border-collapse: collapse;
 }
 body {
-    background-image: url('https://i.postimg.cc/XNB7DcZd/13305786-set-of-tools-abstract-vector-illustration.webp.png');
+    background-image: url('https://i.postimg.cc/VvmNTg7z/Waterfalls.png');
     background-size: cover;
 }
 header img {
@@ -53,5 +54,5 @@ footer p {
     font-weight: bolder;
 }
 h2 {
-    color: plum;
+    color: brown;
 }
