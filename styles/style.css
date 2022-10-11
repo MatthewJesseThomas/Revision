@@ -56,3 +56,18 @@ footer p {
 h2 {
     color: brown;
 }
+/* Pseudo-class selector */
+.phone::first-line {
+    background-color: darkcyan;
+    color: white;
+    padding: 0 5px;
+    font-size: 20px;
+}
+/* Selects the second li element in a list */
+.phone li:last-child {
+    background-color: darkcyan;
+    color: white;
+    font-size: 20px;
+    width: 200px;
+    
+  }
