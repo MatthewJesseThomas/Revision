@@ -1,3 +1,5 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -41,6 +43,7 @@ table {
 body {
     background-image: url('https://i.postimg.cc/VvmNTg7z/Waterfalls.png');
     background-size: cover;
+    font-family: "Lato";
 }
 header img {
     width: 9em;
